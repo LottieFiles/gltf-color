@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.credits {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.leftpanel {
+  position: absolute;
+  background-color: #242723;
+  color: white;
+  padding: 2px;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.Panel {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+  /* No support for these yet */
+  -o-user-select: none;
+  user-select: none;
+}
